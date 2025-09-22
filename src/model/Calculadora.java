@@ -44,15 +44,12 @@ public class Calculadora {
         public void resultado(){
 
             if (resultadoDasNotas >= 5) {
-
-                System.out.println( nomeAluno + " FOI APROVADO COM A NOTA " +  resultadoDasNotas);
-
+                System.out.println(nomeAluno + " FOI APROVADO COM A NOTA: " + resultadoDasNotas);
+            } else if (resultadoDasNotas <4 ) {
+                System.out.println(nomeAluno + " FOI REPROVADO COM A NOTA: " +  resultadoDasNotas);
             } else {
-
-                System.out.println(nomeAluno + " FOI REPROVADO COM A NOTA" +  resultadoDasNotas);
-
+                System.out.println(nomeAluno + " ESTA DE RECUPERAÇÃO ");
             }
-
 
 
         }
